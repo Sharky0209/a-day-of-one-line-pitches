@@ -3,7 +3,7 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 
 const sentence =
-  "Tell make.fun any app idea you have been putting off in plain words and watch it build your first real app, no code, no tech skills, no waiting, free to try right now.";
+  "Tell make.fun the app idea you've been putting off in plain words, then watch it build your first real app; it's free to try, with no code or tech skills needed.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", sentence, "utf8");
